@@ -26,6 +26,64 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)createElements{
+    self.URLSession = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+    
+    
+    self.URLReq = [[NSMutableURLRequest alloc]initWithURL:[NSURL URLWithString:@"http://www.brninfotech.com/pulse/modules/admin/ValidateLogin.php"]];
+    
+    
+    NSString * dataInStr = [NSString stringWithFormat:@"registeredEmail=%@&registeredPassword=%@&funcName=verifyLogin",self.usernameTF.text,self.passwordTF.text];
+    
+    NSLog(@"dataInStr is %@",dataInStr);
+    
+    
+    ///////////////////
+    
+    [self.URLReq setValue:@"application/x-www-form-urlencoded; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
+    
+    NSData *dataToPassToServer = [dataInStr dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
+    
+    NSString *postLength = [NSString stringWithFormat:@"%lu",[dataToPassToServer length]];
+    
+    [self.URLReq setValue:postLength forHTTPHeaderField:@"Content-Length"];
+    
+    
+    [self.URLReq setHTTPBody:dataToPassToServer];
+    
+    
+    
+    /////////////////////////
+    self.URLReq.HTTPMethod = @"POST";
+    
+    
+    self.dataTask = [self.URLSession dataTaskWithRequest:self.URLReq completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        self.responceDic = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+        
+        NSLog(@"server response is %@",self.responceDic);
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            
+            if ([[self.responceDic objectForKey:@"loggedIn"] isEqualToString:@"yes"]) {
+               
+                [self.dataTask resume];
+            }
+            
+            
+        });
+        
+        
+        
+    }];
+    
+    
+    
+}
+
+
+
+
+
 
 /*
 #pragma mark - Navigation
@@ -38,6 +96,13 @@
 */
 
 - (IBAction)loginButton:(id)sender {
+    
+    [self createElements];
+    
+    [self dataTask];
+    
+    
+    
 }
 - (IBAction)signupButton:(id)sender {
 }

@@ -16,5 +16,9 @@
 - (IBAction)signupButton:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *forgotPasswordOutlet;
 - (IBAction)forgotPasswordButton:(id)sender;
-
+@property NSArray * responceArray;
+@property NSURLSession * URLSession;
+@property NSMutableURLRequest * URLReq;
+@property NSURLSessionDataTask * dataTask;
+@property NSDictionary * responceDic;
 @end
