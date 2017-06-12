@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FBA18461EEEAB2100593F55 /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA18451EEEAB2100593F55 /* LoginPage.m */; };
 		E92C12C71EEEA94700F41754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E92C12C61EEEA94700F41754 /* main.m */; };
 		E92C12CA1EEEA94700F41754 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E92C12C91EEEA94700F41754 /* AppDelegate.m */; };
 		E92C12CD1EEEA94700F41754 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92C12CC1EEEA94700F41754 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FBA18441EEEAB2100593F55 /* LoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPage.h; sourceTree = "<group>"; };
+		3FBA18451EEEAB2100593F55 /* LoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPage.m; sourceTree = "<group>"; };
 		E92C12C21EEEA94700F41754 /* L22BRNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = L22BRNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92C12C61EEEA94700F41754 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E92C12C81EEEA94700F41754 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FBA18471EEEAB4A00593F55 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				3FBA18441EEEAB2100593F55 /* LoginPage.h */,
+				3FBA18451EEEAB2100593F55 /* LoginPage.m */,
+			);
+			name = LoginPage;
+			sourceTree = "<group>";
+		};
 		E92C12B91EEEA94700F41754 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +79,7 @@
 				E92C12D31EEEA94700F41754 /* LaunchScreen.storyboard */,
 				E92C12D61EEEA94700F41754 /* Info.plist */,
 				E92C12C51EEEA94700F41754 /* Supporting Files */,
+				3FBA18471EEEAB4A00593F55 /* LoginPage */,
 			);
 			path = L22BRNApp;
 			sourceTree = "<group>";
@@ -151,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FBA18461EEEAB2100593F55 /* LoginPage.m in Sources */,
 				E92C12CD1EEEA94700F41754 /* ViewController.m in Sources */,
 				E92C12CA1EEEA94700F41754 /* AppDelegate.m in Sources */,
 				E92C12C71EEEA94700F41754 /* main.m in Sources */,
@@ -314,6 +328,7 @@
 				E92C12DB1EEEA94700F41754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
