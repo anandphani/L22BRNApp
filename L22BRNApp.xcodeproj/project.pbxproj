@@ -69,6 +69,15 @@
 			name = AppSearch;
 			sourceTree = "<group>";
 		};
+		3F794AF61EEEB763009DB87A /* DailyStatusUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				3F794AF31EEEB760009DB87A /* DailyStatusUpdate.h */,
+				3F794AF41EEEB760009DB87A /* DailyStatusUpdate.m */,
+			);
+			name = DailyStatusUpdate;
+			sourceTree = "<group>";
+		};
 		3FBA18471EEEAB4A00593F55 /* LoginPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +120,7 @@
 				3FBA18471EEEAB4A00593F55 /* LoginPage */,
 				3F3605901EEEAD2700FBCDDE /* AppSearch */,
 				3F021DF41EEEB1C40047E32D /* Attendance view */,
+				3F794AF61EEEB763009DB87A /* DailyStatusUpdate */,
 			);
 			path = L22BRNApp;
 			sourceTree = "<group>";
@@ -196,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FBA18461EEEAB2100593F55 /* LoginPage.m in Sources */,
+				3F794AF51EEEB760009DB87A /* DailyStatusUpdate.m in Sources */,
 				E92C12CD1EEEA94700F41754 /* ViewController.m in Sources */,
 				3F9189941EEEB7B700C2B71F /* ApplyLeaveViewController.m in Sources */,
 				E92C12CA1EEEA94700F41754 /* AppDelegate.m in Sources */,
