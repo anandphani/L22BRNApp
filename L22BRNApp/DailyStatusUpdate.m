@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view.
     
     NSLog(@"created by ravi");
+    NSLog(@"another one");
 }
 
 - (void)didReceiveMemoryWarning {
