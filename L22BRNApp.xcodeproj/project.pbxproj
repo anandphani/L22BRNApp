@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F021DF31EEEB1BF0047E32D /* AttendanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F021DF21EEEB1BF0047E32D /* AttendanceView.m */; };
 		3F36058F1EEEAD2400FBCDDE /* AppSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F36058E1EEEAD2400FBCDDE /* AppSearch.m */; };
 		3FBA18461EEEAB2100593F55 /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA18451EEEAB2100593F55 /* LoginPage.m */; };
 		E92C12C71EEEA94700F41754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E92C12C61EEEA94700F41754 /* main.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F021DF11EEEB1BF0047E32D /* AttendanceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceView.h; sourceTree = "<group>"; };
+		3F021DF21EEEB1BF0047E32D /* AttendanceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceView.m; sourceTree = "<group>"; };
 		3F36058D1EEEAD2400FBCDDE /* AppSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSearch.h; sourceTree = "<group>"; };
 		3F36058E1EEEAD2400FBCDDE /* AppSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSearch.m; sourceTree = "<group>"; };
 		3FBA18441EEEAB2100593F55 /* LoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPage.h; sourceTree = "<group>"; };
@@ -45,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F021DF41EEEB1C40047E32D /* Attendance view */ = {
+			isa = PBXGroup;
+			children = (
+				3F021DF11EEEB1BF0047E32D /* AttendanceView.h */,
+				3F021DF21EEEB1BF0047E32D /* AttendanceView.m */,
+			);
+			name = "Attendance view";
+			sourceTree = "<group>";
+		};
 		3F3605901EEEAD2700FBCDDE /* AppSearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +105,7 @@
 				E92C12C51EEEA94700F41754 /* Supporting Files */,
 				3FBA18471EEEAB4A00593F55 /* LoginPage */,
 				3F3605901EEEAD2700FBCDDE /* AppSearch */,
+				3F021DF41EEEB1C40047E32D /* Attendance view */,
 			);
 			path = L22BRNApp;
 			sourceTree = "<group>";
@@ -180,6 +193,7 @@
 				3FBA18461EEEAB2100593F55 /* LoginPage.m in Sources */,
 				E92C12CD1EEEA94700F41754 /* ViewController.m in Sources */,
 				E92C12CA1EEEA94700F41754 /* AppDelegate.m in Sources */,
+				3F021DF31EEEB1BF0047E32D /* AttendanceView.m in Sources */,
 				E92C12C71EEEA94700F41754 /* main.m in Sources */,
 				3F36058F1EEEAD2400FBCDDE /* AppSearch.m in Sources */,
 			);
