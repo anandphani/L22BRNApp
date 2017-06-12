@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface AppSearch : UIViewController
+- (IBAction)ChooseYearTF:(id)sender;
+- (IBAction)MonthTF:(id)sender;
+- (IBAction)DateTF:(id)sender;
+- (IBAction)CategoryTF:(id)sender;
+- (IBAction)APPSearchTF:(id)sender;
+- (IBAction)ClickOnTap:(id)sender;
 
 @end

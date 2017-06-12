@@ -17,8 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-        NSLog(@"created app search by subbu");
-    NSLog(@"created app search by subbu");
+       self.navigationItem.title=@"APPSearch";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,4 +35,21 @@
 }
 */
 
+- (IBAction)ChooseYearTF:(id)sender {
+}
+
+- (IBAction)MonthTF:(id)sender {
+}
+
+- (IBAction)DateTF:(id)sender {
+}
+
+- (IBAction)CategoryTF:(id)sender {
+}
+
+- (IBAction)APPSearchTF:(id)sender {
+}
+
+- (IBAction)ClickOnTap:(id)sender {
+}
 @end
