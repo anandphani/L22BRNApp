@@ -37,4 +37,10 @@
 }
 */
 
+- (IBAction)loginButton:(id)sender {
+}
+- (IBAction)signupButton:(id)sender {
+}
+- (IBAction)forgotPasswordButton:(id)sender {
+}
 @end
