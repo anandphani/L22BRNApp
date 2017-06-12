@@ -18,8 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSLog(@"created by ravi");
-    NSLog(@"another one");
+    NSLog(@"crewtednasdhb djs vbdfnjklg hbfg");
 }
 
 - (void)didReceiveMemoryWarning {
