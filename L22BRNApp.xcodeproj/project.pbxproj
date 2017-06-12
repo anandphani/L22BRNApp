@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3F021DF31EEEB1BF0047E32D /* AttendanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F021DF21EEEB1BF0047E32D /* AttendanceView.m */; };
 		3F36058F1EEEAD2400FBCDDE /* AppSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F36058E1EEEAD2400FBCDDE /* AppSearch.m */; };
+		3F794AF51EEEB760009DB87A /* DailyStatusUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F794AF41EEEB760009DB87A /* DailyStatusUpdate.m */; };
 		3FBA18461EEEAB2100593F55 /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA18451EEEAB2100593F55 /* LoginPage.m */; };
 		E92C12C71EEEA94700F41754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E92C12C61EEEA94700F41754 /* main.m */; };
 		E92C12CA1EEEA94700F41754 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E92C12C91EEEA94700F41754 /* AppDelegate.m */; };
@@ -23,6 +24,8 @@
 		3F021DF21EEEB1BF0047E32D /* AttendanceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceView.m; sourceTree = "<group>"; };
 		3F36058D1EEEAD2400FBCDDE /* AppSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSearch.h; sourceTree = "<group>"; };
 		3F36058E1EEEAD2400FBCDDE /* AppSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSearch.m; sourceTree = "<group>"; };
+		3F794AF31EEEB760009DB87A /* DailyStatusUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyStatusUpdate.h; sourceTree = "<group>"; };
+		3F794AF41EEEB760009DB87A /* DailyStatusUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyStatusUpdate.m; sourceTree = "<group>"; };
 		3FBA18441EEEAB2100593F55 /* LoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPage.h; sourceTree = "<group>"; };
 		3FBA18451EEEAB2100593F55 /* LoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPage.m; sourceTree = "<group>"; };
 		E92C12C21EEEA94700F41754 /* L22BRNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = L22BRNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +69,15 @@
 			name = AppSearch;
 			sourceTree = "<group>";
 		};
+		3F794AF61EEEB763009DB87A /* DailyStatusUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				3F794AF31EEEB760009DB87A /* DailyStatusUpdate.h */,
+				3F794AF41EEEB760009DB87A /* DailyStatusUpdate.m */,
+			);
+			name = DailyStatusUpdate;
+			sourceTree = "<group>";
+		};
 		3FBA18471EEEAB4A00593F55 /* LoginPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +118,7 @@
 				3FBA18471EEEAB4A00593F55 /* LoginPage */,
 				3F3605901EEEAD2700FBCDDE /* AppSearch */,
 				3F021DF41EEEB1C40047E32D /* Attendance view */,
+				3F794AF61EEEB763009DB87A /* DailyStatusUpdate */,
 			);
 			path = L22BRNApp;
 			sourceTree = "<group>";
@@ -191,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FBA18461EEEAB2100593F55 /* LoginPage.m in Sources */,
+				3F794AF51EEEB760009DB87A /* DailyStatusUpdate.m in Sources */,
 				E92C12CD1EEEA94700F41754 /* ViewController.m in Sources */,
 				E92C12CA1EEEA94700F41754 /* AppDelegate.m in Sources */,
 				3F021DF31EEEB1BF0047E32D /* AttendanceView.m in Sources */,
