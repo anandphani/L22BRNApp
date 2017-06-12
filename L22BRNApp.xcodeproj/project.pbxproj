@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F36058F1EEEAD2400FBCDDE /* AppSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F36058E1EEEAD2400FBCDDE /* AppSearch.m */; };
 		3FBA18461EEEAB2100593F55 /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA18451EEEAB2100593F55 /* LoginPage.m */; };
 		E92C12C71EEEA94700F41754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E92C12C61EEEA94700F41754 /* main.m */; };
 		E92C12CA1EEEA94700F41754 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E92C12C91EEEA94700F41754 /* AppDelegate.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F36058D1EEEAD2400FBCDDE /* AppSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSearch.h; sourceTree = "<group>"; };
+		3F36058E1EEEAD2400FBCDDE /* AppSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSearch.m; sourceTree = "<group>"; };
 		3FBA18441EEEAB2100593F55 /* LoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPage.h; sourceTree = "<group>"; };
 		3FBA18451EEEAB2100593F55 /* LoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPage.m; sourceTree = "<group>"; };
 		E92C12C21EEEA94700F41754 /* L22BRNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = L22BRNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F3605901EEEAD2700FBCDDE /* AppSearch */ = {
+			isa = PBXGroup;
+			children = (
+				3F36058D1EEEAD2400FBCDDE /* AppSearch.h */,
+				3F36058E1EEEAD2400FBCDDE /* AppSearch.m */,
+			);
+			name = AppSearch;
+			sourceTree = "<group>";
+		};
 		3FBA18471EEEAB4A00593F55 /* LoginPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +92,7 @@
 				E92C12D61EEEA94700F41754 /* Info.plist */,
 				E92C12C51EEEA94700F41754 /* Supporting Files */,
 				3FBA18471EEEAB4A00593F55 /* LoginPage */,
+				3F3605901EEEAD2700FBCDDE /* AppSearch */,
 			);
 			path = L22BRNApp;
 			sourceTree = "<group>";
@@ -168,6 +181,7 @@
 				E92C12CD1EEEA94700F41754 /* ViewController.m in Sources */,
 				E92C12CA1EEEA94700F41754 /* AppDelegate.m in Sources */,
 				E92C12C71EEEA94700F41754 /* main.m in Sources */,
+				3F36058F1EEEAD2400FBCDDE /* AppSearch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
