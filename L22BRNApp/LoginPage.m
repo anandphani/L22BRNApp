@@ -7,6 +7,7 @@
 //
 
 #import "LoginPage.h"
+#import "AttendanceView.h"
 
 @interface LoginPage ()
 
@@ -66,7 +67,37 @@
             
             if ([[self.responceDic objectForKey:@"loggedIn"] isEqualToString:@"yes"]) {
                
-                [self.dataTask resume];
+                AttendanceView*AD=[self.storyboard instantiateViewControllerWithIdentifier:@"AttendanceView"];
+                AD.candidateDetailsArray=[[NSMutableArray alloc]init];
+                [AD.candidateDetailsArray addObject:[[NSJSONSerialization JSONObjectWithData:data options:0 error:nil]  objectForKey:@"batchID"]];
+                [AD.candidateDetailsArray addObject:[[NSJSONSerialization JSONObjectWithData:data options:0 error:nil]  objectForKey:@"firstName"]];
+                [AD.candidateDetailsArray addObject:[[NSJSONSerialization JSONObjectWithData:data options:0 error:nil]  objectForKey:@"profileImagePath"]];
+                [AD.candidateDetailsArray addObject:[[NSJSONSerialization JSONObjectWithData:data options:0 error:nil]  objectForKey:@"studentID"]];
+                [AD.candidateDetailsArray addObject:[[NSJSONSerialization JSONObjectWithData:data options:0 error:nil]  objectForKey:@"surName"]];
+
+            }
+            else{
+            
+            
+                UIAlertController * alert=[UIAlertController
+                                           alertControllerWithTitle:@"Message"
+                                           message:[self.responceDic objectForKey:@"msg"]
+                                           preferredStyle:UIAlertControllerStyleActionSheet];
+                UIAlertAction* ok = [UIAlertAction
+                                     actionWithTitle:@"OK"
+                                     style:UIAlertActionStyleDefault
+                                     handler:^(UIAlertAction * action)
+                                     {
+                                         
+                                         
+                                     }];
+                [alert addAction:ok];
+                [self presentViewController:alert animated:YES completion:nil];
+                
+
+            
+            
+            
             }
             
             
@@ -76,7 +107,7 @@
         
     }];
     
-    
+    [self.dataTask resume];
     
 }
 

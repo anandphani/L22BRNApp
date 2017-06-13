@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface AttendanceView : UIViewController
-
+- (IBAction)onTapAttendance:(id)sender;
+@property NSMutableArray *candidateDetailsArray;
 @end
