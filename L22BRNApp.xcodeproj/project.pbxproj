@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3F021DF31EEEB1BF0047E32D /* AttendanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F021DF21EEEB1BF0047E32D /* AttendanceView.m */; };
 		3F36058F1EEEAD2400FBCDDE /* AppSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F36058E1EEEAD2400FBCDDE /* AppSearch.m */; };
+		3F497DE51EEFA77C00859B75 /* BRN.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F497DE41EEFA77C00859B75 /* BRN.jpg */; };
 		3F794AF91EEEB9BA009DB87A /* DailyStatusUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F794AF81EEEB9BA009DB87A /* DailyStatusUpdate.m */; };
 		3F9189941EEEB7B700C2B71F /* ApplyLeaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9189931EEEB7B700C2B71F /* ApplyLeaveViewController.m */; };
 		3FBA18461EEEAB2100593F55 /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA18451EEEAB2100593F55 /* LoginPage.m */; };
@@ -25,6 +26,7 @@
 		3F021DF21EEEB1BF0047E32D /* AttendanceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceView.m; sourceTree = "<group>"; };
 		3F36058D1EEEAD2400FBCDDE /* AppSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSearch.h; sourceTree = "<group>"; };
 		3F36058E1EEEAD2400FBCDDE /* AppSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSearch.m; sourceTree = "<group>"; };
+		3F497DE41EEFA77C00859B75 /* BRN.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BRN.jpg; sourceTree = "<group>"; };
 		3F794AF71EEEB9BA009DB87A /* DailyStatusUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyStatusUpdate.h; sourceTree = "<group>"; };
 		3F794AF81EEEB9BA009DB87A /* DailyStatusUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyStatusUpdate.m; sourceTree = "<group>"; };
 		3F9189921EEEB7B700C2B71F /* ApplyLeaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplyLeaveViewController.h; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			children = (
 				3FBA18441EEEAB2100593F55 /* LoginPage.h */,
 				3FBA18451EEEAB2100593F55 /* LoginPage.m */,
+				3F497DE41EEFA77C00859B75 /* BRN.jpg */,
 			);
 			name = LoginPage;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F497DE51EEFA77C00859B75 /* BRN.jpg in Resources */,
 				E92C12D51EEEA94700F41754 /* LaunchScreen.storyboard in Resources */,
 				E92C12D21EEEA94700F41754 /* Assets.xcassets in Resources */,
 				E92C12D01EEEA94700F41754 /* Main.storyboard in Resources */,
