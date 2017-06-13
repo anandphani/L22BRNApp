@@ -17,8 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    NSLog(@"crewtednasdhb djs vbdfnjklg hbfg");
+   self.navigationItem.title=@"Daily Status Update";
 }
 
 - (void)didReceiveMemoryWarning {
